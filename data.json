@@ -1,0 +1,151 @@
+
+
+ {
+  "Celtics": {
+    "Games": [
+      {
+        "GameId": 312,
+        "Opponent": "Bulls",
+        "Date": 20241118,
+        "Won": false,
+        "GameNumber": 1,
+        "nextGameId": 314
+      },
+      {
+        "GameID": 314,
+        "Opponent": "Thunder",
+        "Date": 20241119,
+        "Won": true,
+        "GameNumber": 2,
+        "nextGameId": 316
+      },
+      {
+        "GameID": 316,
+        "Opponent": "Nuggets",
+        "Date": 20241120,
+        "Won": true,
+        "GameNumber": 3,
+        "nextGameId": 318
+      },
+      {
+        "GameID": 318,
+        "Opponent": "Bulls",
+        "Date": 20241121,
+        "Won": true,
+        "GameNumber": 4,
+        "nextGameId": null
+      }
+    ]
+  },
+  "Bulls": {
+    "Games": [
+      {
+        "GameID": 312,
+        "Opponent": "Celtics",
+        "Date": 20241118,
+        "Won": true,
+        "GameNumber": 1,
+        "nextGameId": 315
+      },
+      {
+        "GameID": 315,
+        "Opponent": "Nuggets",
+        "Date": 20241119,
+        "Won": false,
+        "GameNumber": 2,
+        "nextGameId": 317
+      },
+      {
+        "GameID": 317,
+        "Opponent": "Thunder",
+        "Date": 20241120,
+        "Won": true,
+        "GameNumber": 3,
+        "nextGameId": 318
+      },
+      {
+        "GameID": 318,
+        "Opponent": "Celtics",
+        "Date": 20241121,
+        "Won": false,
+        "GameNumber": 4,
+        "nextGameId": null
+      }
+    ]
+  },
+  "Thunder": {
+    "Games": [
+      {
+        "GameID": 313,
+        "Opponent": "Nuggets",
+        "Date": 20241118,
+        "Won": false,
+        "GameNumber": 1,
+        "nextGameId": 314
+      },
+      {
+        "GameID": 314,
+        "Opponent": "Celtics",
+        "Date": 20241119,
+        "Won": false,
+        "GameNumber": 2,
+        "nextGameId": 317
+      },
+      {
+        "GameID": 317,
+        "Opponent": "Bulls",
+        "Date": 20241120,
+        "Won": false,
+        "GameNumber": 3,
+        "nextGameId": 319
+      },
+      {
+        "GameID": 319,
+        "Opponent": "Nuggets",
+        "Date": 20241121,
+        "Won": false,
+        "GameNumber": 4,
+        "nextGameId": null
+      }
+    ]
+  },
+
+  "Nuggets": {
+    "Games": [
+      {
+        "GameId": 313,
+        "Opponent": "Thunder",
+        "Date": 20241118,
+        "Won": true,
+        "GameNumber": 1,
+        "nextGameId": 315
+      },
+      {
+        "GameID": 315,
+        "Opponent": "Bulls",
+        "Date": 20241119,
+        "Won": true,
+        "GameNumber": 2,
+        "nextGameId": 316
+      },
+      {
+        "GameID": 316,
+        "Opponent": "Celtics",
+        "Date": 20241120,
+        "Won": false,
+        "GameNumber": 3,
+        "nextGameId": 319
+      },
+      {
+        "GameID": 319,
+        "Opponent": "Thunder",
+        "Date": 20241121,
+        "Won": true,
+        "GameNumber": 4,
+        "nextGameId": null
+      }
+    ]
+  }
+}
+
+
